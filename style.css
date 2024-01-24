@@ -1,0 +1,12 @@
+/* #checked {
+    display: block;
+} */
+
+@media screen and (max-width: 640px) {
+    #checked {
+        display: none;
+    }
+    #click:checked ~ nav ul {
+        display: block;
+    }
+}
